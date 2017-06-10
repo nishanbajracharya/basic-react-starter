@@ -4,9 +4,9 @@
   "description": "A basic react.js starter using babel, eslint and webpack",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest",
     "prestart": "npm run build",
     "build": "webpack --colors",
+    "test": "jest --updateSnapshot",
     "lint": "eslint src test; exit 0",
     "test:coverage": "jest --coverage",
     "start": "webpack-dev-server --hot",
