@@ -3,5 +3,5 @@
     ["latest", { "modules": false }],
     "react"
   ],
-  "plugins": ["transform-runtime", "transform-object-rest-spread", "transform-es2015-arrow-functions"]
+  "plugins": ["transform-class-properties", "transform-runtime", "transform-object-rest-spread"]
 }
