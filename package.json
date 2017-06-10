@@ -4,14 +4,13 @@
   "description": "A basic react.js starter using babel, eslint and webpack",
   "main": "src/index.js",
   "scripts": {
+    "test": "jest",
     "prestart": "npm run build",
     "build": "webpack --colors",
     "lint": "eslint src test; exit 0",
+    "test:coverage": "jest --coverage",
     "start": "webpack-dev-server --hot",
     "lint:fix": "eslint --fix src test; exit 0",
-    "test": "jest",
-    "test:coverage": "jest --coverage",
-    "test:mocha": "mocha './src/**/*.spec.js' --compilers --js:babel-core/register",
     "build:production": "rimraf dist && NODE_ENV=production webpack --config ./webpack.config.production.js --progress --colors -p"
   },
   "keywords": [
@@ -49,8 +48,8 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
-    "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "prop-types": "^15.5.10"
   }
 }
