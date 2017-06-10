@@ -46,3 +46,9 @@ yarn.lock
 
 # npm lock file
 package-lock.json
+
+# test snapshot
+__snapshots__
+
+# test coverage
+coverage
