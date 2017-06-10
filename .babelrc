@@ -1,0 +1,7 @@
+{
+  "presets": [
+    ["latest", { "modules": false }],
+    "react"
+  ],
+  "plugins": ["transform-runtime", "transform-object-rest-spread", "transform-es2015-arrow-functions"]
+}

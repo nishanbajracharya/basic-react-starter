@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn integrity file
+.yarn-integrity
+
+# IntelliJ IDE
+.idea
+
+# Build directory
+dist
+build
+
+# Dotenv configuration
+.env
+
+# Visual Studio Code
+.vscode
+
+# Vim temporary files
+*.swp
+*.swo
+
+# config files (for firebase)
+src/config
+
+# Python caches
+__pycache__/
+
+# deployment files
+deployConfig.json
+
+# yarn lock file
+yarn.lock
+
+# npm lock file
+package-lock.json

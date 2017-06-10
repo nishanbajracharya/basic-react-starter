@@ -1,0 +1,49 @@
+{
+  "name": "basic-react-starter",
+  "version": "1.0.0",
+  "description": "A basic react.js starter using babel, eslint and webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "prestart": "npm run build",
+    "build": "webpack --colors",
+    "lint": "eslint src test; exit 0",
+    "start": "webpack-dev-server --hot",
+    "lint:fix": "eslint --fix src test; exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:production": "rimraf dist && NODE_ENV=production webpack --config ./webpack.config.production.js --progress --colors -p"
+  },
+  "keywords": [
+    "react",
+    "babel",
+    "eslint",
+    "webpack"
+  ],
+  "author": "Nishan Bajracharya <nisbaj11@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "dotenv": "^4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.28.0",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
