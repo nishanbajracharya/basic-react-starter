@@ -2,7 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/nishanbajracharya/basic-react-starter/badges/gpa.svg)](https://codeclimate.com/github/nishanbajracharya/basic-react-starter)
 
-A basic react.js starter using babel, eslint and webpack. 
+A basic react.js starter using babel, eslint and webpack.
 
 ## Requirements
 
@@ -19,6 +19,10 @@ A basic react.js starter using babel, eslint and webpack.
 * Navigate to the directory `cd basic-react-starter` and install all dependencies listed in [package.json](package.json) using **yarn**:
 
       $ yarn
+
+* Remove the existing git config:
+
+      $ rm -rf .git
 
 * Make a copy of `.env.example` as `.env` and update the configurations:
 
@@ -37,6 +41,8 @@ A basic react.js starter using babel, eslint and webpack.
 * For Production:
 
       $ yarn build:production
+
+    Use the production code in `dist/` directory.
 
 ## Lint (For Development)
 
