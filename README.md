@@ -1,5 +1,6 @@
 # Basic React Starter
 
+[![Build Status](https://travis-ci.org/nishanbajracharya/basic-react-starter.svg?branch=master)](https://travis-ci.org/nishanbajracharya/basic-react-starter)
 [![Code Climate](https://codeclimate.com/github/nishanbajracharya/basic-react-starter/badges/gpa.svg)](https://codeclimate.com/github/nishanbajracharya/basic-react-starter)
 
 A basic react.js starter using babel, eslint and webpack.
