@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/nishanbajracharya/basic-react-starter.svg?branch=master)](https://travis-ci.org/nishanbajracharya/basic-react-starter)
 [![Code Climate](https://codeclimate.com/github/nishanbajracharya/basic-react-starter/badges/gpa.svg)](https://codeclimate.com/github/nishanbajracharya/basic-react-starter)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 A basic react.js starter using babel, eslint and webpack.
 
