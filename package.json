@@ -20,7 +20,7 @@
     "webpack"
   ],
   "author": "Nishan Bajracharya <nisbaj11@gmail.com>",
-  "license": "ISC",
+  "license": "Mozilla Public License 2.0",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
